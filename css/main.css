@@ -5,11 +5,11 @@ body {
     background: url('../images/Main_Background.png');
     display: flex;
     flex-direction: column;
+    width: 99%;
 }
 .header {
     background-color: #ffffff;
     height: 1080px;
-
 }
 .about {
     background-color: lightgoldenrodyellow;
