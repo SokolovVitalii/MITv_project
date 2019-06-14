@@ -7,6 +7,7 @@
     width: 100%;
     position: relative;
     top: 41px;
+    z-index: 4;
 }
 .logo-keeper{
     display: flex;
@@ -99,7 +100,7 @@
 .red-square-header {
     background: url('../images/Header-box-background-red.png');
     width: 89%;
-    height: 78%;
+    height: 880px;
     background-position: center;
     position: absolute;
     top: 100px;
@@ -108,12 +109,88 @@
     bottom: 100px;
     z-index: 2;
 }
-.girl-header{
+.headline {
+    width: 1110px;
+    height: 403px;
+    position: relative;
+    top: 339px;
+    left: 327px;
+    bottom: 238px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.upper-headline {
+    height: 161px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.headline-text{
+    font-family: 'SFProDisplay-Bold';
+    font-size: 224px;
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 400px;
+    opacity: 100%;
+}
+.headline-line{
+    width: 143px;
+    height: 29px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+}
+.lower-headline {
+    height: 203px;
+}
+.headline-text{
+    font-family: 'SFProDisplay-Bold';
+    font-size: 224px;
+    color: #ffffff;
+}
+.header-subscribe{
+    width: 431px;
+    height: 73px;
+    background-color: #000000;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 907px;
+    left: 1006px;
+}
+.headline-subscribe{
+    width: 215px;
+    height: 37px;
+    border: 1px solid yellow;
+    text-align: center;
+}
+.headline-subscribe a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 119px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: 'SFProDisplay-Semibold';
+}
+.headline-subscribe a:hover {
+    color: lightseagreen;
+}
+/* .girl-header{
     border: 1px solid green;
     background: url('../images/girl-header.png');
     background-position: center;
-    position: absolute;
-    width: 828px;
-    height: 1376px;
+    position: relative;
+    width: 43%;
+    height: 127%;
     z-index: 3;
-}
+} */

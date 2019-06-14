@@ -29,6 +29,9 @@
     line-height: 54px;
     opacity: 100%;
 }
+.scroller-part a:hover {
+    color: lightgreen;
+}
 .pointer-keeper{
     display: flex;
     flex-direction: column;

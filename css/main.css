@@ -5,13 +5,12 @@ body {
     background: url('../images/Main_Background.png');
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 99%;
     height: 200vh;
     margin: 0px;
     z-index: 1;
 }
 header {
-    border: red solid 1px;
     position: relative;
     top: 39px;
     height: 588px;
@@ -21,6 +20,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 1080px;
+    display: flex;
+    flex-direction: column;
 }
 .about {
     background-color: #f7fcff;
