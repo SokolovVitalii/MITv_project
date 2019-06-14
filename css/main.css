@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: url('../images/Main_Background.png');
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #ffffff;
+    height: 1080px;
+
+}
+.about {
+    background-color: lightgoldenrodyellow;
+    height: 1767px;
+}
+.news {
+    background-color: lightseagreen;
+    height: 1717px;
+}
+.footer {
+    background-color: lightpink;
+    height: 880px;
+}
