@@ -7,7 +7,8 @@
     width: 100%;
     position: relative;
     top: 41px;
-}.logo-keeper{
+}
+.logo-keeper{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -94,4 +95,25 @@
 .notifications:hover {
     background-color: lightcoral;
     border-radius: 95%;
+}
+.red-square-header {
+    background: url('../images/Header-box-background-red.png');
+    width: 89%;
+    height: 78%;
+    background-position: center;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    left: 100px;
+    bottom: 100px;
+    z-index: 2;
+}
+.girl-header{
+    border: 1px solid green;
+    background: url('../images/girl-header.png');
+    background-position: center;
+    position: absolute;
+    width: 828px;
+    height: 1376px;
+    z-index: 3;
 }
