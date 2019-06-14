@@ -23,6 +23,8 @@ header {
     height: 1080px;
     display: flex;
     flex-direction: column;
+    width: -webkit-calc(100% - 200px);
+    margin: 0 auto;
 }
 .about {
     background-color: #f7fcff;
