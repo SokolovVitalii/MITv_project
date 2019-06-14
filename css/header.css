@@ -40,9 +40,6 @@
 .red-dot{
     color: #f73646;
 }
-.red-dot:hover{
-    color: lightgreen;
-}
 .navigation {
     display: flex;
     flex-direction: row;
