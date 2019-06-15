@@ -6,8 +6,6 @@ body {
     background: url('../images/Main_Background.png');
     display: flex;
     flex-direction: column;
-    width: 99%;
-    height: 200vh;
     margin: 0px;
     z-index: 1;
 }
@@ -20,7 +18,7 @@ header {
     background: url('../images/Header-box-background-White.png');
     background-position: center;
     background-repeat: no-repeat;
-    height: 1080px;
+    /* height: 1080px; */
     display: flex;
     flex-direction: column;
     width: -webkit-calc(100% - 200px);
@@ -28,7 +26,9 @@ header {
 }
 .about {
     background-color: #f7fcff;
-    height: 1767px;
+    margin-top: 380px;
+    height: 200px;
+
 }
 .news {
     background-color: lightseagreen;
