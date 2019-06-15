@@ -26,12 +26,9 @@ header {
 }
 .about {
     background-color: #f7fcff;
-    margin-top: 380px;
-    height: 200px;
-
 }
 .news {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     height: 1717px;
 }
 .footer {
