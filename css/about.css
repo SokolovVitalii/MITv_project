@@ -3,10 +3,9 @@
     flex-direction: column;
     justify-content: space-around;
     width: -webkit-calc(100% - 200px);
-    /* margin: 0 auto; */
+    margin: 0 auto;
     margin-top: 405px;
     position: relative;
-
 }
 .about-header  {
     width: 411px;
@@ -22,7 +21,7 @@
     color: #f73646;
 }
 .about-text {
-    width: 413px;
+    width: 411px;
     font-family: 'SFProDisplay-Regular';
     font-size: 18px;
     font-weight: 400;
