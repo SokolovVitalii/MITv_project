@@ -4,7 +4,7 @@
     justify-content: space-around;
     width: -webkit-calc(100% - 200px);
     margin: 0 auto;
-    margin-top: 405px;
+    margin-top: 205px;
     position: relative;
 }
 .about-header  {
@@ -16,6 +16,7 @@
     color: #161618;
     line-height: 110px;
     margin-left: 244px;
+    margin-top: 405px;
 }
 .about-header-red-hyphen{
     color: #f73646;
@@ -33,7 +34,7 @@
     margin-left: 244px;
 }
 .about-black-box {
-    width: 837px;
+    width: 737px;
     height: 606px;
     background-color: #000000;
     position: absolute;

@@ -55,6 +55,7 @@
     flex-grow: 3;
     margin-top: 235px;
     margin-bottom: 590px;
+    margin-right: -360px;
 }
 .news-text h1{
     font-family: 'SFProDisplay-Semibold';
@@ -89,5 +90,5 @@
     position: absolute;
     top: 900px;
     /* left: 1080px; */
-    right: 360px;
+    right: 140px;
 }

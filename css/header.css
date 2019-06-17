@@ -152,13 +152,14 @@
     color: lightseagreen;
 }
 .image-girl{
-    background: url('../images/girl-header.png');
+    /* background: url('../images/girl-header.png');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 1376px;
     width: 828px;
     z-index: 6;
-    left: 148px;
+    left: 48px;
     top: 0px;
     position: absolute;
+    margin-left: 70px;
 }
