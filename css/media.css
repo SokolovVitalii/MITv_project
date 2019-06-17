@@ -213,7 +213,6 @@
     .header-subscribe {
         width: 351px;
     }
-
     /* ABOUT BLOCK*/
     .about-header {
         line-height: 100px;
@@ -242,11 +241,7 @@
     .about-black-box-text {
         font-size: 22px;
     }
-
     /* NEWS BLOCK*/
-    .news-column-right {
-
-    }
     .news-text {
         width: 376px;
     }
@@ -264,10 +259,10 @@
     }
     .news-red-box {
         right: 80px;
-        width: 376px;
+        width: 276px;
     }
     .news-column-right {
-        margin-right: 0px;
+        margin-right: -500px;
     }
 
     /* LATEST NEWS BLOCK*/
@@ -294,12 +289,12 @@
         margin-top: -120px;
     }
     /* FOOTER BLOCK*/
+    .social-empty-block {
+        display: none;
+    }
 }
 @media only screen and (max-width: 1366px) {
     /* HEADER BLOCK*/
-    .red-square-header {
-        height: 880px;
-    }
     .headline-text {
         font-size: 180px;
         line-height: 200px;
@@ -308,34 +303,34 @@
         display: none;
     }
     .header-subscribe {
-        width: 251px;
+        width: 351px;
     }
-
+    .red-square-header {
+        margin: 88px auto 0px;
+    }
     /* ABOUT BLOCK*/
     .about-content-box {
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .about-header {
         line-height: 100px;
-        margin-top: 265px;
+        margin-top: 165px;
         margin-left: 24px;
-        width: 211px;
-        font-size: 50px;
+        font-size: 85px;
     }
     .about-text {
         margin-left: 24px;
         font-size: 20px;
-        width: 250px;
+        width: 355px;
     }
     .about-black-box {
-        width: 435px;
-        height: 306px;
-        right: -58px;
         bottom: 0px;
+        width: 585px;
+        height: 356px;
     }
     .about-red-box {
         width: 424px;
-        height: 80%;
+        height: 85%;
         right: -100px;
     }
     .about-black-box-headline {
@@ -344,48 +339,44 @@
     .about-black-box-text {
         font-size: 22px;
     }
-
     /* NEWS BLOCK*/
-
-    .news-column-left {
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-    .news-column-right {
-        margin-right: 0px;
-        margin-bottom: 290px;
-        margin-top: 135px;
+    .news-content-box {
+        width: -webkit-calc(100% - 200px);
+        margin: 0 0;
     }
     .news-text {
         width: 376px;
     }
     .news-text h1{
         line-height: 100px;
-        font-size: 50px;
-        width: 210px;
+        font-size: 85px;
     }
     .news-text p{
-        font-size: 18px;
-        width: 235px;
+        margin-top: 17px;
     }
     .video-box {
-        height: 398px;
-        width: 298px;
+        height: 428px;
+        width: 398px;
     }
     .news-red-box {
-        right: 130px;
-        width: 225px;
-        height: 266px;
-        top: 800px;
+        top: 630px;
+        right: -30px;
+        width: 126px;
+        height: 226px;
     }
+    .news-column-right {
+        margin-top: 150px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+    }
+    .news-column-left {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
     /* LATEST NEWS BLOCK*/
     .latest-news-header {
-        width: 100%;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .latest-news-header p {
-        font-size: 65px;
+    width: 100%;
     }
     .latest-news-content-row {
         background-position: center;
@@ -395,15 +386,6 @@
     }
     .latest-news-content-item {
         width: 100%;
-    }
-    .item-header p {
-    font-size: 24px;
-    }
-    .item-data {
-    font-size: 12px;
-    }
-    .item-text {
-    font-size: 15px;
     }
     .latest-news-item-column {
         align-items: center;
@@ -417,10 +399,127 @@
     }
     /* FOOTER BLOCK*/
     .brands-row {
-    flex-direction: column;
+        flex-direction: column;
     }
     .footer-row-social-label {
         flex-direction: column;
+        align-items:
+    }
+    .social-empty-block {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1115px) {
+    /* HEADER BLOCK*/
+    .headline-text {
+        font-size: 180px;
+        line-height: 200px;
+    }
+    .image-girl {
+        display: none;
+    }
+    .header-subscribe {
+        width: 351px;
+    }
+    .red-square-header {
+        margin: 88px auto 0px;
+    }
+    /* ABOUT BLOCK*/
+    .about-content-box {
+        margin-top: 100px;
+    }
+    .about-header {
+        line-height: 100px;
+        margin-top: 165px;
+        margin-left: 24px;
+        font-size: 85px;
+    }
+    .about-text {
+        margin-left: 24px;
+        font-size: 20px;
+        width: 355px;
+    }
+    .about-black-box {
+        bottom: 0px;
+        width: 585px;
+        height: 356px;
+    }
+    .about-red-box {
+        width: 424px;
+        height: 85%;
+        right: -100px;
+    }
+    .about-black-box-headline {
+        font-size: 62px;
+    }
+    .about-black-box-text {
+        font-size: 22px;
+    }
+    /* NEWS BLOCK*/
+    .news-content-box {
+        width: -webkit-calc(100% - 200px);
+        margin: 0 0;
+    }
+    .news-text {
+        width: 376px;
+    }
+    .news-text h1{
+        line-height: 100px;
+        font-size: 85px;
+    }
+    .news-text p{
+        margin-top: 17px;
+    }
+    .video-box {
+        height: 428px;
+        width: 398px;
+    }
+    .news-red-box {
+        top: 630px;
+        right: -30px;
+        width: 126px;
+        height: 226px;
+    }
+    .news-column-right {
+        margin-top: 150px;
+        margin-right: 0px;
+        margin-bottom: 100px;
+    }
+    .news-column-left {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    /* LATEST NEWS BLOCK*/
+    .latest-news-header {
+    width: 100%;
+    }
+    .latest-news-content-row {
+        background-position: center;
+    }
+    .latest-news-content-row {
+        flex-direction: column;
+    }
+    .latest-news-content-item {
+        width: 100%;
+    }
+    .latest-news-item-column {
+        align-items: center;
+        justify-content: center;
+    }
+    .latest-news-item-column-text {
+        align-items: flex-start;
+    }
+    .circle-item {
+        margin-top: -120px;
+    }
+    /* FOOTER BLOCK*/
+    .brands-row {
+        flex-direction: column;
+    }
+    .footer-row-social-label {
+        flex-direction: column;
+        align-items:
     }
     .social-empty-block {
         display: none;
