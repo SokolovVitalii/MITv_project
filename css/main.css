@@ -31,7 +31,9 @@ header {
     display: flex;
     flex-direction: row;
 }
+.latest-news {
+    background-color: #ffffff;
+}
 .footer {
-    background-color: lightpink;
     height: 880px;
 }
