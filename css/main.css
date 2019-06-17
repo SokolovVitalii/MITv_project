@@ -35,5 +35,9 @@ header {
     background-color: #ffffff;
 }
 .footer {
-    height: 880px;
+    background: url('../images/footer-background.png');
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 100px;
+    background-color: #111113;
 }
