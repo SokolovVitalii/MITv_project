@@ -74,7 +74,7 @@
     margin-top: 57px;
 }
 .news-text {
-    height: 566px;
+    /* height: 566px;  !!!!!!!!!!!!!!!!! */
     width: 476px;
     display: flex;
     flex-direction: column;
