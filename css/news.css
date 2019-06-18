@@ -9,7 +9,7 @@
 .news-column-left {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     flex-grow: 1;
     margin-top: 350px;
@@ -51,7 +51,7 @@
 .news-column-right {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-grow: 3;
     margin-top: 235px;
     margin-bottom: 590px;
@@ -84,7 +84,7 @@
 }
 .news-red-box {
     height: 566px;
-    width: 476px;
+    width: 426px;
     background-color: #f8323f;
     position: absolute;
     top: 900px;
