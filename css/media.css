@@ -147,9 +147,6 @@
     }
 
     /* NEWS BLOCK*/
-    .news-column-right {
-
-    }
     .news-text {
         width: 376px;
     }
@@ -408,7 +405,6 @@
     }
     .footer-row-social-label {
         flex-direction: column;
-        align-items:
     }
     .social-empty-block {
         display: none;
